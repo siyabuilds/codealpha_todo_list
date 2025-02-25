@@ -13,7 +13,7 @@ class Task {
 const generateId = () => `${Date.now()}-${Math.floor(Math.random() * 10000)}`;
 
 // Array to store tasks
-const tasksArray = JSON.parse(localStorage.getItem("arrayOfTasks")) || [];
+let tasksArray = JSON.parse(localStorage.getItem("arrayOfTasks")) || [];
 
 // Function for adding tasks
 const add = (task) => {
