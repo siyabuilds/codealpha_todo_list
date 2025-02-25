@@ -16,7 +16,7 @@ const generateId = () => `${Date.now()}-${Math.floor(Math.random() * 10000)}`;
 let tasksArray = JSON.parse(localStorage.getItem("arrayOfTasks")) || [];
 
 // Function for adding tasks
-const add = (task) => {
+const addTask = (task) => {
   if (!(task instanceof Task)) {
     throw new Error("I only accept valid tasks matching the task class");
   }
