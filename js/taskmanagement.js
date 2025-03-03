@@ -28,9 +28,15 @@ document.getElementById("newtask-button").addEventListener("click", () => {
         />
       </form>
     `,
-    focusConfirm: false,
+    focusConfirm: true,
     showCancelButton: true,
     confirmButtonText: "Add Task",
+    customClass: {
+      confirmButton:
+        "bg-green-500 text-white hover:bg-green-600 focus:ring-2 focus:ring-green-400 rounded-md px-6 py-2",
+      cancelButton:
+        "bg-gray-500 text-white hover:bg-gray-600 focus:ring-2 focus:ring-gray-400 rounded-md px-6 py-2",
+    },
     preConfirm: () => {
       const title = document.getElementById("title").value;
       const description = document.getElementById("description").value;

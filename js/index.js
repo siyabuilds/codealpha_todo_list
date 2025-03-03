@@ -66,7 +66,7 @@ const render = () => {
     const taskDiv = document.createElement("div");
     taskDiv.className =
       "task border p-4 mb-2 rounded-md bg-white shadow mr-2 ml-2 border-gray-500 hover:shadow-lg hover:border-blue-300 transition-all duration-400";
-    taskDiv.setAttribute("data-aos-anchor-placement", "center-bottom");
+    taskDiv.setAttribute("data-aos-anchor-placement", "bottom-bottom");
     taskDiv.setAttribute("data-aos", "fade-up");
     taskDiv.innerHTML = `
       <h3 class="font-bold text-lg">${task.title}</h3>
