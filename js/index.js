@@ -88,4 +88,5 @@ const render = () => {
   });
 };
 
+// Initialize the app
 render();
