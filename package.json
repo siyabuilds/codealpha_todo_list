@@ -1,0 +1,25 @@
+{
+  "name": "codealpha_todo_list",
+  "version": "1.0.0",
+  "description": "This is a simple **To-Do List** web app built using HTML, TailwindCSS, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siyabuilds/codealpha_todo_list.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Siyabonga Lukhele",
+    "email": "samsonlukhele76@gmail.com",
+    "url": "https://siyabuilds.tech/"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/siyabuilds/codealpha_todo_list/issues"
+  },
+  "homepage": "https://github.com/siyabuilds/codealpha_todo_list#readme"
+}
